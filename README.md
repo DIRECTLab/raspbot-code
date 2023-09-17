@@ -1,12 +1,6 @@
 # Using the Docker Container
 
-First form will just run it where it can use all the features of the raspberry pi
-
-```sh
-sudo docker run -it --rm --privileged humble
-```
-
-## Placeing the ros2_nodes folder as /root/ros2_ws/src
+## Placing the ros2_nodes folder as /root/ros2_ws/src
 
 This will make it so your files don't get deleted when the container ends
 
